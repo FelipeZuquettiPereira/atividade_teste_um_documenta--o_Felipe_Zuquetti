@@ -38,7 +38,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <h3>Bem-Vindo! <?php echo $_SESSION["usuario"]; ?></h3>
     <a href="logout.php"> Sair</a>
 
-    // cria as configurações iniciais da página e exibe uma mensagem de boas-vindas ao usuário logado, mostrando o nome de usuário armazenado na variável de sessão "usuario". Também inclui um link para a página de logout, permitindo que o usuário encerre a sessão quando desejar.
+    <!-- cria as configurações iniciais da página e exibe uma mensagem de boas-vindas ao usuário logado, mostrando o nome de usuário armazenado na variável de sessão "usuario". Também inclui um link para a página de logout, permitindo que o usuário encerre a sessão quando desejar. -->
 
     <hr>
     <h4>Cadastro de Novo Usuário.</h4>

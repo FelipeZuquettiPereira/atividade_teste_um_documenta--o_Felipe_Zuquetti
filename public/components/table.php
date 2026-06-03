@@ -24,6 +24,8 @@
                     <td>". $linha['id'] . "</td>
                     <td>". $linha['usuario'] . "</td>
                     <td>". $linha['senha'] . "</td>
+                    <td> <a href='editar.php?id=". $linha['id'] ."'>Editar</a> </td>
+                    <td> <a href='delete.php?id=". $linha['id'] ."'>Deletar</a> </td>
                 </tr>
         ";
             // o echo é usado para imprimir o código HTML que representa uma linha da tabela para cada usuário encontrado no banco de dados. Ele utiliza a sintaxe de concatenação de strings para inserir os valores das colunas "id", "usuario" e "senha" na estrutura da tabela. Cada linha da tabela é criada dentro do loop while, garantindo que todos os usuários sejam exibidos corretamente.

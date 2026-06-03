@@ -48,7 +48,7 @@
         ?>
         <br>
         <button type="submit">Entrar</button>
-        // O código acima é um exemplo simples de um sistema de login em PHP. Ele verifica as credenciais do usuário e, se forem válidas, inicia uma sessão e redireciona para a página "home.php". Se as credenciais forem inválidas, exibe uma mensagem de erro. Lembre-se de que este código é apenas para fins educacionais e não deve ser usado em produção sem as devidas medidas de segurança, como o uso de consultas preparadas para evitar SQL Injection.
+            <!-- O código acima é um exemplo simples de um sistema de login em PHP. Ele verifica as credenciais do usuário e, se forem válidas, inicia uma sessão e redireciona para a página "home.php". Se as credenciais forem inválidas, exibe uma mensagem de erro. Lembre-se de que este código é apenas para fins educacionais e não deve ser usado em produção sem as devidas medidas de segurança, como o uso de consultas preparadas para evitar SQL Injection. -->
     </form>
 
 </body>
