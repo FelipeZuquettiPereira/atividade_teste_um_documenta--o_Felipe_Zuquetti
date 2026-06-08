@@ -6,6 +6,8 @@
         <th>ID</th>
         <th>Usuário</th>
         <th>Senha</th>
+        <th>Editar</th>
+        <th>Deletar</th>
     </tr> //
 
     <?php
