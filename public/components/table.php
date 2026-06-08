@@ -1,11 +1,13 @@
 <h4>Usuários Cadastrados</h4>
 
-<table border="1" cellpadding="3"> // O código acima cria uma tabela HTML com bordas e espaçamento entre as células. A tabela será usada para exibir os usuários cadastrados no sistema.
+<table border="1" cellpadding="3"> <!-- O código acima cria uma tabela HTML com bordas e espaçamento entre as células. A tabela será usada para exibir os usuários cadastrados no sistema. -->
 
     <tr>
         <th>ID</th>
         <th>Usuário</th>
         <th>Senha</th>
+        <th>Editar</th>
+        <th>Deletar</th>
     </tr> //
 
     <?php
@@ -24,8 +26,8 @@
                     <td>". $linha['id'] . "</td>
                     <td>". $linha['usuario'] . "</td>
                     <td>". $linha['senha'] . "</td>
-                    <td> <a href='editar.php?id=". $linha['id'] ."'>Editar</a> </td>
-                    <td> <a href='delete.php?id=". $linha['id'] ."'>Deletar</a> </td>
+                    <td> <a href='components/editar.php?id=". $linha['id'] ."'>Editar</a> </td>
+                    <td> <a href='components/deletar.php?id=". $linha['id'] ."'>Deletar</a> </td>
                 </tr>
         ";
             // o echo é usado para imprimir o código HTML que representa uma linha da tabela para cada usuário encontrado no banco de dados. Ele utiliza a sintaxe de concatenação de strings para inserir os valores das colunas "id", "usuario" e "senha" na estrutura da tabela. Cada linha da tabela é criada dentro do loop while, garantindo que todos os usuários sejam exibidos corretamente.

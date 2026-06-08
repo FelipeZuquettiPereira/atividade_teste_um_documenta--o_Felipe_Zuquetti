@@ -67,7 +67,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <?php
     
     include("components/table.php")
-
     // O código acima inclui um arquivo chamado "table.php" que provavelmente contém a lógica para exibir uma tabela de usuários cadastrados. Isso permite que os usuários vejam a lista de usuários existentes no sistema. Lembre-se de que, em um ambiente de produção, é importante implementar medidas de segurança adequadas para proteger as informações dos usuários e evitar vulnerabilidades como SQL Injection.
 
     ?>
