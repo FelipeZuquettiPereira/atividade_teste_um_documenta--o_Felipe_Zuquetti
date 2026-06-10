@@ -7,4 +7,3 @@
 
 ?>
 
-<!-- O código acima é responsável por encerrar a sessão do usuário, efetivamente fazendo o logout. Ele inicia a sessão, destrói todas as variáveis de sessão e redireciona o usuário para a página de login. É uma prática comum em sistemas de autenticação para garantir que o usuário seja desconectado de forma segura. -->
